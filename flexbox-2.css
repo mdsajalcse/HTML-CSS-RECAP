@@ -1,0 +1,84 @@
+.flex-container .row{
+    display: flex;
+    background-color: chocolate;
+}
+
+.flex-container  div{
+    padding: 20px;
+    flex-direction: row;
+    border: 2px solid #000;
+    margin: 10px;
+}
+.flex-container>.row>:nth-child(1){
+    background-color: #fff;
+   
+}
+.flex-container>.row>:nth-child(2){
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.flex-container>.row> :nth-child(3){
+    background-color: aqua;
+    color: black;
+    border: 1px solid #000;
+}
+
+.flex-container>.row-2{
+    display: flex;
+    background-color: burlywood;
+}
+.flex-container>.row-2> :nth-child(1){
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+    .flex-container>.row-2> :nth-child(2){
+        background-color: rgb(33, 203, 61);
+        color: #fff;
+        border: 1px solid #fff;
+    
+    }
+
+    .flex-container>.row-2> :nth-child(3){
+        background-color: rgb(14, 22, 80);
+        color: #fff;
+        border: 1px solid #fff;
+    
+    }
+
+    .flex-container>.row-3{
+        display: flex;
+        background-color: aqua;
+    }
+    .flex-container>.row-3> :nth-child(1){
+        background-color: black;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    
+        .flex-container>.row-3> :nth-child(2){
+            background-color: rgb(14, 22, 80);
+            color: #fff;
+            border: 1px solid #fff;
+        
+        }
+    
+        .flex-container>.row-3> :nth-child(3){
+            
+            background-color: rgb(33, 203, 61);
+            color: #fff;
+            border: 1px solid #fff;
+        
+        }
+
+
+          @media(max-width:640px){
+            .flex-container>.row, .flex-container>.row-2, .flex-container>.row-3
+
+            {
+                flex-direction: column;
+            }
+          }
+        
